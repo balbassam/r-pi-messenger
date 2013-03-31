@@ -1,13 +1,8 @@
 #!/usr/bin/python
-
 from time import sleep
 from Adafruit_I2C import Adafruit_I2C
 from Adafruit_MCP230xx import Adafruit_MCP230XX
 from Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
-
-import smbus
-import sys
-import re
 
 # initialize the LCD plate
 # use busnum = 0 for raspi version 1 (256MB) and busnum = 1 for version 2
